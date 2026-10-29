@@ -1,0 +1,242 @@
+[
+  {
+    "name": "background",
+    "ppu": 96,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "fixture_Shelf",
+    "ppu": 140,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "fixture_Counter",
+    "ppu": 145,
+    "pivotX": 0.5,
+    "pivotY": 0.12
+  },
+  {
+    "name": "fixture_Machine",
+    "ppu": 120,
+    "pivotX": 0.5,
+    "pivotY": 0.05
+  },
+  {
+    "name": "fixture_Television",
+    "ppu": 125,
+    "pivotX": 0.5,
+    "pivotY": 0.05
+  },
+  {
+    "name": "fixture_UpgradeStand",
+    "ppu": 125,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "fixture_Door",
+    "ppu": 135,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "cassette_Action",
+    "ppu": 142,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Action",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Action_wrong",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "cassette_Comedy",
+    "ppu": 142,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Comedy",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Comedy_wrong",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "cassette_Drama",
+    "ppu": 142,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Drama",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Drama_wrong",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "cassette_Audio",
+    "ppu": 142,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Audio",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "slot_Audio_wrong",
+    "ppu": 180,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "cassette_foreign",
+    "ppu": 142,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "player",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "assistant",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "mystery",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "visitor_0",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "visitor_1",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "visitor_2",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "visitor_3",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "visitor_4",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "visitor_5",
+    "ppu": 168,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "bubble",
+    "ppu": 160,
+    "pivotX": 0.5,
+    "pivotY": 0.1
+  },
+  {
+    "name": "decoration_Rug",
+    "ppu": 110,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "decoration_Plant",
+    "ppu": 138,
+    "pivotX": 0.5,
+    "pivotY": 0.06
+  },
+  {
+    "name": "decoration_Poster",
+    "ppu": 135,
+    "pivotX": 0.5,
+    "pivotY": 0.05
+  },
+  {
+    "name": "decoration_TrashCan",
+    "ppu": 120,
+    "pivotX": 0.5,
+    "pivotY": 0.05
+  },
+  {
+    "name": "decoration_CardboardBox",
+    "ppu": 120,
+    "pivotX": 0.5,
+    "pivotY": 0.08
+  },
+  {
+    "name": "decoration_CableCoil",
+    "ppu": 120,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "shadow",
+    "ppu": 150,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "glow",
+    "ppu": 32,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "vignette",
+    "ppu": 96,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  },
+  {
+    "name": "fixture_Pile",
+    "ppu": 32,
+    "pivotX": 0.5,
+    "pivotY": 0.5
+  }
+]

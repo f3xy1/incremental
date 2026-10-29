@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6938269a264f7e43bf882d43af48c01, type: 3}
+  m_Name: VhsGameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::VhsInheritance.VhsGameConfig
+  dayDurationSeconds: 480
+  duskFadeDurationSeconds: 90
+  machineStartIntervalSeconds: 9
+  machineIntervalDecreasePerDay: 0.5
+  machineMinimumIntervalSeconds: 4
+  initialPileCount: 12
+  basePileCapacity: 40
+  overflowDrainIntervalSeconds: 0.2
+  baseWalkSpeed: 3
+  interactionRadius: 1.15
+  correctShelfReward: 1
+  maxVisibleVisitors: 8
+  baseVisitorSpawnInterval: 24
+  baseOrderPayout: 2
+  uniqueGenrePayoutBonus: 0.1
+  orderMaximumByDay: 0300000005000000070000000a000000i
+  assistantMoveSpeed: 2.4
+  assistantActionCooldown: 5
+  pathGridCellSize: 0.5
+  upgrades:
+  - type: 0
+    title: "\u0412\u043C\u0435\u0441\u0442\u0438\u043C\u043E\u0441\u0442\u044C"
+    description: "\u041A\u0430\u0441\u0441\u0435\u0442 \u0432 \u0440\u0443\u043A\u0430\u0445"
+    values:
+    - 1
+    - 2
+    - 4
+    nextLevelCosts: 1400000032000000i
+    levelEffectLabels:
+    - "1 \u043A\u0430\u0441\u0441\u0435\u0442\u0430"
+    - "2 \u043A\u0430\u0441\u0441\u0435\u0442\u044B"
+    - "4 \u043A\u0430\u0441\u0441\u0435\u0442\u044B"
+    iconColor: {r: 0.88235295, g: 0.3529412, b: 0.5921569, a: 1}
+  - type: 1
+    title: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0445\u043E\u0434\u044C\u0431\u044B"
+    description: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    values:
+    - 1
+    - 1.15
+    - 1.3
+    nextLevelCosts: 190000003c000000i
+    levelEffectLabels:
+    - "\u0411\u0430\u0437\u043E\u0432\u0430\u044F"
+    - +15%
+    - +30%
+    iconColor: {r: 0.32156864, g: 0.78431374, b: 0.76862746, a: 1}
+  - type: 2
+    title: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043A\u043E\u0440\u0437\u0438\u043D\u0430"
+    description: "\u041B\u0438\u043C\u0438\u0442 \u043A\u0443\u0447\u0438"
+    values:
+    - 40
+    - 55
+    - 70
+    - 85
+    nextLevelCosts: 1e0000003c00000064000000i
+    levelEffectLabels:
+    - "40 \u043A\u0430\u0441\u0441\u0435\u0442"
+    - "55 \u043A\u0430\u0441\u0441\u0435\u0442"
+    - "70 \u043A\u0430\u0441\u0441\u0435\u0442"
+    - "85 \u043A\u0430\u0441\u0441\u0435\u0442"
+    iconColor: {r: 0.9411765, g: 0.6431373, b: 0.29411766, a: 1}
+  - type: 3
+    title: "\u0414\u043E\u043F. \u043F\u043E\u043B\u043A\u0430 / \u0436\u0430\u043D\u0440"
+    description: "\u041E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442 \u0434\u0440\u0430\u043C\u0443"
+    values:
+    - 0
+    - 1
+    nextLevelCosts: 50000000i
+    levelEffectLabels:
+    - "\u0417\u0430\u043A\u0440\u044B\u0442\u043E"
+    - "\u0414\u0440\u0430\u043C\u0430 \u043E\u0442\u043A\u0440\u044B\u0442\u0430"
+    iconColor: {r: 0.5764706, g: 0.43529412, b: 0.81960785, a: 1}
+  - type: 4
+    title: "\u0411\u043E\u043B\u044C\u0448\u0435 \u043C\u0435\u0441\u0442\u0430"
+    description: "\u0421\u043B\u043E\u0442\u043E\u0432 \u043D\u0430 \u043A\u0430\u0436\u0434\u043E\u0439 \u043F\u043E\u043B\u043A\u0435"
+    values:
+    - 20
+    - 30
+    - 45
+    - 60
+    nextLevelCosts: 28000000500000008c000000i
+    levelEffectLabels:
+    - "20 \u0441\u043B\u043E\u0442\u043E\u0432"
+    - "30 \u0441\u043B\u043E\u0442\u043E\u0432"
+    - "45 \u0441\u043B\u043E\u0442\u043E\u0432"
+    - "60 \u0441\u043B\u043E\u0442\u043E\u0432"
+    iconColor: {r: 0.41960785, g: 0.79607844, b: 0.46666667, a: 1}
+  - type: 5
+    title: "\u0414\u043E\u0445\u043E\u0434 \u0441 \u0437\u0430\u043A\u0430\u0437\u043E\u0432"
+    description: "\u041C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044C \u043E\u043F\u043B\u0430\u0442\u044B"
+    values:
+    - 1
+    - 1.25
+    - 1.5
+    - 1.8
+    nextLevelCosts: 3200000064000000b4000000i
+    levelEffectLabels:
+    - x1.00
+    - x1.25
+    - x1.50
+    - x1.80
+    iconColor: {r: 1, g: 0.81960785, b: 0.4, a: 1}
+  - type: 6
+    title: "\u0412\u044B\u0432\u0435\u0441\u043A\u0430"
+    description: "\u041F\u043E\u0441\u0435\u0442\u0438\u0442\u0435\u043B\u0438 \u043F\u0440\u0438\u0445\u043E\u0434\u044F\u0442 \u0447\u0430\u0449\u0435"
+    values:
+    - 1
+    - 0.85
+    - 0.7
+    - 0.55
+    nextLevelCosts: 230000004b00000082000000i
+    levelEffectLabels:
+    - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F"
+    - "+15% \u0447\u0430\u0449\u0435"
+    - "+30% \u0447\u0430\u0449\u0435"
+    - "+45% \u0447\u0430\u0449\u0435"
+    iconColor: {r: 0.9372549, g: 0.2784314, b: 0.43529412, a: 1}
+  - type: 7
+    title: "\u0412\u0440\u0435\u043C\u044F \u043E\u0436\u0438\u0434\u0430\u043D\u0438\u044F"
+    description: "\u0422\u0435\u0440\u043F\u0435\u043D\u0438\u0435 \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435\u043B\u0435\u0439"
+    values:
+    - 45
+    - 55
+    - 65
+    - 75
+    nextLevelCosts: 1e0000004600000078000000i
+    levelEffectLabels:
+    - "45 \u0441\u0435\u043A\u0443\u043D\u0434"
+    - "55 \u0441\u0435\u043A\u0443\u043D\u0434"
+    - "65 \u0441\u0435\u043A\u0443\u043D\u0434"
+    - "75 \u0441\u0435\u043A\u0443\u043D\u0434"
+    iconColor: {r: 0.06666667, g: 0.5411765, b: 0.69803923, a: 1}
+  - type: 8
+    title: "\u041F\u043E\u043C\u043E\u0449\u043D\u0438\u043A"
+    description: "\u0421\u0430\u043C \u043D\u043E\u0441\u0438\u0442 \u0447\u0430\u0441\u0442\u044C \u0437\u0430\u043A\u0430\u0437\u043E\u0432"
+    values:
+    - 0
+    - 1
+    nextLevelCosts: b4000000i
+    levelEffectLabels:
+    - "\u041D\u0435\u0442 \u043F\u043E\u043C\u043E\u0449\u043D\u0438\u043A\u0430"
+    - "\u041F\u043E\u043C\u043E\u0449\u043D\u0438\u043A \u043D\u0430\u043D\u044F\u0442"
+    iconColor: {r: 0.54509807, g: 0.827451, b: 0.8666667, a: 1}
+  - type: 9
+    title: "\u0410\u0443\u0434\u0438\u043E\u043A\u0430\u0441\u0441\u0435\u0442\u044B"
+    description: "\u041D\u043E\u0432\u044B\u0439 \u0442\u0438\u043F \u0438 \u043F\u043E\u043B\u043A\u0430"
+    values:
+    - 0
+    - 1
+    nextLevelCosts: 96000000i
+    levelEffectLabels:
+    - "\u0417\u0430\u043A\u0440\u044B\u0442\u043E"
+    - "\u0410\u0443\u0434\u0438\u043E \u043E\u0442\u043A\u0440\u044B\u0442\u043E"
+    iconColor: {r: 0.96862745, g: 0.54901963, b: 0.41960785, a: 1}
+  loreFragments:
+  - "1994. \u041D\u0430 \u0437\u0430\u043F\u0438\u0441\u0438 \u043F\u0443\u0441\u0442\u043E\u0439 \u0437\u0430\u043B. \u041A\u0430\u043C\u0435\u0440\u0430 \u043C\u0435\u0434\u043B\u0435\u043D\u043D\u043E \u043F\u043E\u0432\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u043A \u0434\u0432\u0435\u0440\u0438 \u043F\u043E\u0434\u0441\u043E\u0431\u043A\u0438, \u0445\u043E\u0442\u044F \u0434\u0435\u0440\u0436\u0430\u0442\u044C \u0435\u0451 \u043D\u0435\u043A\u043E\u043C\u0443."
+  - "1996. \u0412 \u043E\u0442\u0440\u0430\u0436\u0435\u043D\u0438\u0438 \u044D\u043A\u0440\u0430\u043D\u0430 \u0434\u0435\u0434 \u0441\u043F\u043E\u0440\u0438\u0442 \u0441 \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u043E\u043C \u0431\u0435\u0437 \u043B\u0438\u0446\u0430: \xAB\u0421\u0430\u043B\u043E\u043D \u0441\u0430\u043C \u0432\u044B\u0431\u0438\u0440\u0430\u0435\u0442, \u0447\u0442\u043E \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C\xBB."
+  - "1998. \u0410\u043F\u043F\u0430\u0440\u0430\u0442 \u043F\u0435\u0447\u0430\u0442\u0430\u0435\u0442 \u043D\u0430\u043A\u043B\u0435\u0439\u043A\u0443 \u0441 \u0437\u0430\u0432\u0442\u0440\u0430\u0448\u043D\u0435\u0439 \u0434\u0430\u0442\u043E\u0439. \u041F\u043E\u0434 \u043D\u0435\u0439 \u2014 \u0432\u0430\u0448\u0435 \u0438\u043C\u044F, \u043D\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u043E\u0435 \u0437\u043D\u0430\u043A\u043E\u043C\u044B\u043C \u043F\u043E\u0447\u0435\u0440\u043A\u043E\u043C."
+  - "2001. \u041F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F \u0437\u0430\u043F\u0438\u0441\u044C. \u0414\u0435\u0434 \u0432\u044B\u043A\u043B\u044E\u0447\u0430\u0435\u0442 \u0441\u0432\u0435\u0442 \u0438 \u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u043A\u043B\u044E\u0447 \u043F\u043E\u0434 \u0442\u0435\u043B\u0435\u0432\u0438\u0437\u043E\u0440\u043E\u043C: \xAB\u0422\u0435\u043F\u0435\u0440\u044C \u043E\u0447\u0435\u0440\u0435\u0434\u044C \u043D\u0430\u0441\u043B\u0435\u0434\u043D\u0438\u043A\u0430\xBB."
